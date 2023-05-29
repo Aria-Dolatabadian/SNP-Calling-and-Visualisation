@@ -124,7 +124,7 @@ plt.title('Counts of Different SNP Types')
 legend_elements = [plt.Rectangle((0, 0), 1, 1, color=color, label=snp_type)
                    for snp_type, color in zip(snp_types, colors)]
 
-# Move the legend outside of the plot
+# Move the legend out of the plot
 plt.legend(handles=legend_elements, loc='center left', bbox_to_anchor=(1, 0.5))
 
 plt.tight_layout()
